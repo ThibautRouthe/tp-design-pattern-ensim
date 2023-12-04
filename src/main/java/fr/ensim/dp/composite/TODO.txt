@@ -1,0 +1,3 @@
+Pattern Composite
+-------------------------
+Utilisez le pattern composite pour compter la taille d'un répertoire et ses sous répertoires.

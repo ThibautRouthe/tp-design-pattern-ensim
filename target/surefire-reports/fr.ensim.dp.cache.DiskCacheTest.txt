@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: fr.ensim.dp.cache.DiskCacheTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.089 s <<< FAILURE! - in fr.ensim.dp.cache.DiskCacheTest
+testCear  Time elapsed: 0.004 s  <<< ERROR!
+java.lang.NullPointerException
+	at fr.ensim.dp.cache.DiskCacheTest.avantTest(DiskCacheTest.java:25)
+
+testSize  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NullPointerException
+	at fr.ensim.dp.cache.DiskCacheTest.avantTest(DiskCacheTest.java:25)
+
+testRetreive  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at fr.ensim.dp.cache.DiskCacheTest.avantTest(DiskCacheTest.java:25)
+

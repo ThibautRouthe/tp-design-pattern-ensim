@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="fr.ensim.dp.cache.DiskCacheTest" time="0.089" tests="4" errors="3" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="E:\Exercices Ensim\DesignPatterns\tp1v3-dp-squelette-maven\target\test-classes;E:\Exercices Ensim\DesignPatterns\tp1v3-dp-squelette-maven\target\classes;D:\Users\e2104605\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.0\log4j-api-2.14.0.jar;D:\Users\e2104605\.m2\repository\org\apache\logging\log4j\log4j-core\2.14.0\log4j-core-2.14.0.jar;D:\Users\e2104605\.m2\repository\org\swinglabs\swingx\1.6.1\swingx-1.6.1.jar;D:\Users\e2104605\.m2\repository\com\jhlabs\filters\2.0.235\filters-2.0.235.jar;D:\Users\e2104605\.m2\repository\org\swinglabs\swing-worker\1.1\swing-worker-1.1.jar;D:\Users\e2104605\.m2\repository\org\swinglabs\swingx-ws\1.0\swingx-ws-1.0.jar;D:\Users\e2104605\.m2\repository\jdom\jdom\1.0\jdom-1.0.jar;D:\Users\e2104605\.m2\repository\commons-httpclient\commons-httpclient\3.0.1\commons-httpclient-3.0.1.jar;D:\Users\e2104605\.m2\repository\commons-logging\commons-logging\1.1\commons-logging-1.1.jar;D:\Users\e2104605\.m2\repository\log4j\log4j\1.2.12\log4j-1.2.12.jar;D:\Users\e2104605\.m2\repository\logkit\logkit\1.0.1\logkit-1.0.1.jar;D:\Users\e2104605\.m2\repository\avalon-framework\avalon-framework\4.1.3\avalon-framework-4.1.3.jar;D:\Users\e2104605\.m2\repository\javax\servlet\servlet-api\2.3\servlet-api-2.3.jar;D:\Users\e2104605\.m2\repository\commons-codec\commons-codec\1.3\commons-codec-1.3.jar;D:\Users\e2104605\.m2\repository\net\sf\json-lib\json-lib\0.9\json-lib-0.9.jar;D:\Users\e2104605\.m2\repository\commons-beanutils\commons-beanutils\1.7.0\commons-beanutils-1.7.0.jar;D:\Users\e2104605\.m2\repository\commons-lang\commons-lang\2.2\commons-lang-2.2.jar;D:\Users\e2104605\.m2\repository\xom\xom\1.1\xom-1.1.jar;D:\Users\e2104605\.m2\repository\xerces\xmlParserAPIs\2.6.2\xmlParserAPIs-2.6.2.jar;D:\Users\e2104605\.m2\repository\xalan\xalan\2.7.0\xalan-2.7.0.jar;D:\Users\e2104605\.m2\repository\jaxen\jaxen\1.1-beta-8\jaxen-1.1-beta-8.jar;D:\Users\e2104605\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;D:\Users\e2104605\.m2\repository\net\sf\ezmorph\ezmorph\0.8.1\ezmorph-0.8.1.jar;D:\Users\e2104605\.m2\repository\xerces\xercesImpl\2.8.1\xercesImpl-2.8.1.jar;D:\Users\e2104605\.m2\repository\xml-apis\xml-apis\1.3.03\xml-apis-1.3.03.jar;D:\Users\e2104605\.m2\repository\jtidy\jtidy\4aug2000r7-dev\jtidy-4aug2000r7-dev.jar;D:\Users\e2104605\.m2\repository\rome\rome\0.8\rome-0.8.jar;D:\Users\e2104605\.m2\repository\org\openjfx\javafx-controls\15.0.1\javafx-controls-15.0.1.jar;D:\Users\e2104605\.m2\repository\org\openjfx\javafx-controls\15.0.1\javafx-controls-15.0.1-win.jar;D:\Users\e2104605\.m2\repository\org\openjfx\javafx-graphics\15.0.1\javafx-graphics-15.0.1.jar;D:\Users\e2104605\.m2\repository\org\openjfx\javafx-graphics\15.0.1\javafx-graphics-15.0.1-win.jar;D:\Users\e2104605\.m2\repository\org\openjfx\javafx-base\15.0.1\javafx-base-15.0.1.jar;D:\Users\e2104605\.m2\repository\org\openjfx\javafx-base\15.0.1\javafx-base-15.0.1-win.jar;D:\Users\e2104605\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.1\junit-jupiter-engine-5.8.1.jar;D:\Users\e2104605\.m2\repository\org\junit\platform\junit-platform-engine\1.8.1\junit-platform-engine-1.8.1.jar;D:\Users\e2104605\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;D:\Users\e2104605\.m2\repository\org\junit\platform\junit-platform-commons\1.8.1\junit-platform-commons-1.8.1.jar;D:\Users\e2104605\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.1\junit-jupiter-api-5.8.1.jar;D:\Users\e2104605\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;D:\Users\e2104605\.m2\repository\org\junit\vintage\junit-vintage-engine\5.8.1\junit-vintage-engine-5.8.1.jar;D:\Users\e2104605\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;D:\Users\e2104605\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Microsoft"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://www.microsoft.com"/>
+    <property name="user.timezone" value="Europe/Paris"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="FR"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin"/>
+    <property name="sun.java.command" value="D:\Users\e2104605\AppData\Local\Temp\surefire12910033991485899769\surefirebooter6472817964170824730.jar D:\Users\e2104605\AppData\Local\Temp\surefire12910033991485899769 2023-02-06T09-55-17_455-jvmRun1 surefire9310608493183758060tmp surefire_09152468574334453773tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="E:\Exercices Ensim\DesignPatterns\tp1v3-dp-squelette-maven\target\test-classes;E:\Exercices Ensim\DesignPatterns\tp1v3-dp-squelette-maven\target\classes;D:\Users\e2104605\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.0\log4j-api-2.14.0.jar;D:\Users\e2104605\.m2\repository\org\apache\logging\log4j\log4j-core\2.14.0\log4j-core-2.14.0.jar;D:\Users\e2104605\.m2\repository\org\swinglabs\swingx\1.6.1\swingx-1.6.1.jar;D:\Users\e2104605\.m2\repository\com\jhlabs\filters\2.0.235\filters-2.0.235.jar;D:\Users\e2104605\.m2\repository\org\swinglabs\swing-worker\1.1\swing-worker-1.1.jar;D:\Users\e2104605\.m2\repository\org\swinglabs\swingx-ws\1.0\swingx-ws-1.0.jar;D:\Users\e2104605\.m2\repository\jdom\jdom\1.0\jdom-1.0.jar;D:\Users\e2104605\.m2\repository\commons-httpclient\commons-httpclient\3.0.1\commons-httpclient-3.0.1.jar;D:\Users\e2104605\.m2\repository\commons-logging\commons-logging\1.1\commons-logging-1.1.jar;D:\Users\e2104605\.m2\repository\log4j\log4j\1.2.12\log4j-1.2.12.jar;D:\Users\e2104605\.m2\repository\logkit\logkit\1.0.1\logkit-1.0.1.jar;D:\Users\e2104605\.m2\repository\avalon-framework\avalon-framework\4.1.3\avalon-framework-4.1.3.jar;D:\Users\e2104605\.m2\repository\javax\servlet\servlet-api\2.3\servlet-api-2.3.jar;D:\Users\e2104605\.m2\repository\commons-codec\commons-codec\1.3\commons-codec-1.3.jar;D:\Users\e2104605\.m2\repository\net\sf\json-lib\json-lib\0.9\json-lib-0.9.jar;D:\Users\e2104605\.m2\repository\commons-beanutils\commons-beanutils\1.7.0\commons-beanutils-1.7.0.jar;D:\Users\e2104605\.m2\repository\commons-lang\commons-lang\2.2\commons-lang-2.2.jar;D:\Users\e2104605\.m2\repository\xom\xom\1.1\xom-1.1.jar;D:\Users\e2104605\.m2\repository\xerces\xmlParserAPIs\2.6.2\xmlParserAPIs-2.6.2.jar;D:\Users\e2104605\.m2\repository\xalan\xalan\2.7.0\xalan-2.7.0.jar;D:\Users\e2104605\.m2\repository\jaxen\jaxen\1.1-beta-8\jaxen-1.1-beta-8.jar;D:\Users\e2104605\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;D:\Users\e2104605\.m2\repository\net\sf\ezmorph\ezmorph\0.8.1\ezmorph-0.8.1.jar;D:\Users\e2104605\.m2\repository\xerces\xercesImpl\2.8.1\xercesImpl-2.8.1.jar;D:\Users\e2104605\.m2\repository\xml-apis\xml-apis\1.3.03\xml-apis-1.3.03.jar;D:\Users\e2104605\.m2\repository\jtidy\jtidy\4aug2000r7-dev\jtidy-4aug2000r7-dev.jar;D:\Users\e2104605\.m2\repository\rome\rome\0.8\rome-0.8.jar;D:\Users\e2104605\.m2\repository\org\openjfx\javafx-controls\15.0.1\javafx-controls-15.0.1.jar;D:\Users\e2104605\.m2\repository\org\openjfx\javafx-controls\15.0.1\javafx-controls-15.0.1-win.jar;D:\Users\e2104605\.m2\repository\org\openjfx\javafx-graphics\15.0.1\javafx-graphics-15.0.1.jar;D:\Users\e2104605\.m2\repository\org\openjfx\javafx-graphics\15.0.1\javafx-graphics-15.0.1-win.jar;D:\Users\e2104605\.m2\repository\org\openjfx\javafx-base\15.0.1\javafx-base-15.0.1.jar;D:\Users\e2104605\.m2\repository\org\openjfx\javafx-base\15.0.1\javafx-base-15.0.1-win.jar;D:\Users\e2104605\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.1\junit-jupiter-engine-5.8.1.jar;D:\Users\e2104605\.m2\repository\org\junit\platform\junit-platform-engine\1.8.1\junit-platform-engine-1.8.1.jar;D:\Users\e2104605\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;D:\Users\e2104605\.m2\repository\org\junit\platform\junit-platform-commons\1.8.1\junit-platform-commons-1.8.1.jar;D:\Users\e2104605\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.1\junit-jupiter-api-5.8.1.jar;D:\Users\e2104605\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;D:\Users\e2104605\.m2\repository\org\junit\vintage\junit-vintage-engine\5.8.1\junit-vintage-engine-5.8.1.jar;D:\Users\e2104605\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;D:\Users\e2104605\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="D:\Users\e2104605"/>
+    <property name="user.language" value="fr"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-07-20"/>
+    <property name="java.home" value="C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="E:\Exercices Ensim\DesignPatterns\tp1v3-dp-squelette-maven"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="D:\Users\e2104605\AppData\Local\Temp\surefire12910033991485899769\surefirebooter6472817964170824730.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.12+7"/>
+    <property name="user.name" value="e2104605"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Microsoft-25199"/>
+    <property name="localRepository" value="D:\Users\e2104605\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/microsoft/openjdk/issues"/>
+    <property name="java.io.tmpdir" value="D:\Users\e2104605\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2022.3.1"/>
+    <property name="java.version" value="11.0.12"/>
+    <property name="user.dir" value="E:\Exercices Ensim\DesignPatterns\tp1v3-dp-squelette-maven"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\National Instruments\Shared\OpenVINO\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\MATLAB\R2022a\runtime\win64;C:\Program Files\MATLAB\R2022a\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin\;C:\Program Files\IVI Foundation\VISA\Win64\Bin\;C:\Program Files (x86)\National Instruments\Shared\LabVIEW CLI;C:\Program Files (x86)\IVI Foundation\IVI\bin;C:\Program Files\IVI Foundation\IVI\bin;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin;C:\Program Files\dotnet\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\nodejs\;C:\Android_sdk\platform-tools;C:\Android_sdk\tools;D:\npm;C:\Program Files\Android\Android Studio\plugins\android\lib;D:\npm\apache-ant\bin;C:\Program Files\Git\cmd;R:\Ressources_Pedagogiques\COMMUN\RESSOURCES LOGICIELLES\flutter_SDK\bin;C:\Program Files (x86)\wapt;D:\Users\e2104605\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Microsoft"/>
+    <property name="java.vm.version" value="11.0.12+7"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="testAdd" classname="fr.ensim.dp.cache.DiskCacheTest" time="0.031"/>
+  <testcase name="testCear" classname="fr.ensim.dp.cache.DiskCacheTest" time="0.004">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at fr.ensim.dp.cache.DiskCacheTest.avantTest(DiskCacheTest.java:25)
+</error>
+  </testcase>
+  <testcase name="testSize" classname="fr.ensim.dp.cache.DiskCacheTest" time="0.001">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at fr.ensim.dp.cache.DiskCacheTest.avantTest(DiskCacheTest.java:25)
+</error>
+  </testcase>
+  <testcase name="testRetreive" classname="fr.ensim.dp.cache.DiskCacheTest" time="0">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at fr.ensim.dp.cache.DiskCacheTest.avantTest(DiskCacheTest.java:25)
+</error>
+  </testcase>
+</testsuite>

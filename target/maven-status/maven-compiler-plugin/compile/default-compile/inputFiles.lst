@@ -1,0 +1,15 @@
+/home/denis/Documents/ensim/designpattern-ips-21/tp/tp1v3-dp-squelette-maven/src/main/java/fr/ensim/dp/cache/ICache.java
+/home/denis/Documents/ensim/designpattern-ips-21/tp/tp1v3-dp-squelette-maven/src/main/java/fr/ensim/dp/util/GzipUtil.java
+/home/denis/Documents/ensim/designpattern-ips-21/tp/tp1v3-dp-squelette-maven/src/main/java/fr/ensim/dp/cache/MemoryCache.java
+/home/denis/Documents/ensim/designpattern-ips-21/tp/tp1v3-dp-squelette-maven/src/main/java/fr/ensim/dp/map/ui/MainUI.java
+/home/denis/Documents/ensim/designpattern-ips-21/tp/tp1v3-dp-squelette-maven/src/main/java/fr/ensim/dp/util/FileUtil.java
+/home/denis/Documents/ensim/designpattern-ips-21/tp/tp1v3-dp-squelette-maven/src/main/java/fr/ensim/dp/map/player/IPlayer.java
+/home/denis/Documents/ensim/designpattern-ips-21/tp/tp1v3-dp-squelette-maven/src/main/java/fr/ensim/dp/map/tile/OpenStreetMapTileProviderInfo.java
+/home/denis/Documents/ensim/designpattern-ips-21/tp/tp1v3-dp-squelette-maven/src/main/java/fr/ensim/dp/map/ui/PlayerPanel.java
+/home/denis/Documents/ensim/designpattern-ips-21/tp/tp1v3-dp-squelette-maven/src/main/java/fr/ensim/dp/map/tile/OpenStreetMapTileFactory.java
+/home/denis/Documents/ensim/designpattern-ips-21/tp/tp1v3-dp-squelette-maven/src/main/java/fr/ensim/dp/util/Wgs84.java
+/home/denis/Documents/ensim/designpattern-ips-21/tp/tp1v3-dp-squelette-maven/src/main/java/fr/ensim/dp/geo/GpxFile.java
+/home/denis/Documents/ensim/designpattern-ips-21/tp/tp1v3-dp-squelette-maven/src/main/java/fr/ensim/dp/cache/filter/IFilterCache.java
+/home/denis/Documents/ensim/designpattern-ips-21/tp/tp1v3-dp-squelette-maven/src/main/java/fr/ensim/dp/util/ProxyConfiguration.java
+/home/denis/Documents/ensim/designpattern-ips-21/tp/tp1v3-dp-squelette-maven/src/main/java/fr/ensim/dp/map/player/IStatePlayer.java
+/home/denis/Documents/ensim/designpattern-ips-21/tp/tp1v3-dp-squelette-maven/src/main/java/fr/ensim/dp/map/ui/JMediaMap.java
